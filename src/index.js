@@ -21,7 +21,7 @@ function countryName(e) {
     refs.list.innerHTML = '' 
     const countryToFind = e.target.value;
     if (prevValue.length > countryToFind.length) {
-        fetchCountryByName(countryToFind); 
+        // fetchCountryByName(countryToFind); 
     }
     prevValue = countryToFind;
     if (isEmpty(countryToFind)) {
